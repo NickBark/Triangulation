@@ -42,8 +42,6 @@ void Triang::openFile() {
             Point point(x, y, z);
             pointCloud.emplace_back(point);
             idPoints[point] = id;
-        } else {
-            // std::cout << "Error reading line: " << line << std::endl;
         }
     }
 
